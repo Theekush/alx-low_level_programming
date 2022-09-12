@@ -1,6 +1,10 @@
-uth: Brennan D Baraban
-
- */
+/*
+ *
+ *  * File: 4-print_alphabt.c
+ *
+ *   * Auth: Brennan D Baraban
+ *
+ *    */
 
 
 
@@ -8,40 +12,39 @@ uth: Brennan D Baraban
 
 
 
- /**
-  *
-  *  * main - Prints the alphabet in lowercase, except for q and e.
-  *
-  *   *
-  *
-  *    * Return: Always 0.
-  *
-  *     */
+/**
+ *
+ *  * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
- int main(void)
-
+int main(void)
+	
 {
 
-		char letter;
+	char letter;
 
 
 
-			for (letter = 'a'; letter <= 'z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 
-					{
-
-								if (letter != 'e' && letter != 'q')
-
-												putchar(letter);
-
-									}
-
-
-
-				putchar('\n');
+	{
+	
+			if (letter != 'e' && letter != 'q')
+	
+				putchar(letter);
+	
+		}
 
 
 
-					return (0);
+	putchar('\n');
 
+
+
+	return (0) 
 }
