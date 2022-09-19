@@ -1,18 +1,20 @@
-tring - reverses a string
-
+/**
  *
- *
- *  * @s: string parameter input
+ *  * rev_string - reverses a string
  *
  *   *
  *
- *    * Return: Nothing
+ *    * @s: string parameter input
  *
- *    */
+ *     *
+ *
+ *      * Return: Nothing
+ *
+ *      */
 
 
 
- void rev_string(char *s)
+void rev_string(char *s)
 
 {
 
